@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS DAY4 a4</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <style>
+      body {
+        object-fit: fill;
+        /* background-repeat: no-repeat; */
+        background-size: 100%;
+        background-image: linear-gradient(black,red);
+      }
+      .mainn {
+        border: 1px solid black;
+        height: 450px;
+        width: 240px;
+        border-radius: 10px;
+        background-image: linear-gradient(
+          rgb(6, 6, 6),
+          rgb(1, 1, 1),
+          rgb(246, 246, 139)
+        );
+      }
+      .a11 {
+        border: 1px solid black;
+        background: #f09433;
+        background: -moz-linear-gradient(
+          45deg,
+          #f09433 0%,
+          #e6683c 25%,
+          #dc2743 50%,
+          #cc2366 75%,
+          #bc1888 100%
+        );
+        background: -webkit-linear-gradient(
+          45deg,
+          #f09433 0%,
+          #e6683c 25%,
+          #dc2743 50%,
+          #cc2366 75%,
+          #bc1888 100%
+        );
+        background: linear-gradient(
+          45deg,
+          #f09433 0%,
+          #e6683c 25%,
+          #dc2743 50%,
+          #cc2366 75%,
+          #bc1888 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        height: 30px;
+        width: 240px;
+        margin-top: 15px;
+      }
+
+      .m1 {
+        border: 1px solid rgb(5, 5, 5);
+        height: 10px;
+        width: 240px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: rgb(5, 5, 5);
+        margin: -1px;
+        margin-bottom: 0px;
+      }
+      .m12 {
+        float: right;
+        margin-top: 2px;
+        margin-right: 3px;
+        color: #f7f5f5;
+      }
+      .m123 {
+        margin-top: 2px;
+        margin-right: 3px;
+        color: #f7f5f5;
+      }
+      .m21 {
+        margin-top: 2px;
+        float: left;
+        margin-left: 6px;
+        color: #f7f5f5;
+      }
+      .m211 {
+        color: #f7f5f5;
+        margin-top: 2px;
+        margin-left: 6px;
+      }
+
+      .a1 {
+        border: 1px solid transparent;
+        height: 370px;
+        width: 240px;
+        padding: -10px;
+        background-color: rgb(157, 243, 181);
+        overflow-y: scroll;
+        margin-top: 0px;
+      }
+      .day-label {
+        text-align: center;
+        background-color: rgb(194, 26, 186);
+        padding: 5px 10px;
+        margin: 10px 0;
+        width: fit-content;
+        /* Centers the day in the middle of the chat box */
+        align-self: center;
+        border-radius: 10px;
+        font-weight: bold;
+
+        position: sticky;
+        top: 10px;
+      }
+      .a1s {
+        border: 1px solid black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #f7f5f5;
+        float: right;
+      }
+      .a1r {
+        border: 1px solid black;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #f7f5f5;
+        float: left;
+      }
+      .b1 {
+        border: 1px solid black;
+        height: 25px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        background-color: rgb(0, 0, 0);
+      }
+      .b12 {
+        height: 20px;
+        float: left;
+        margin-top: 2px;
+        margin-left: 30px;
+        color: #f7f5f5;
+      }
+      .b123 {
+        height: 20px;
+        float: middle;
+        margin-top: 2px;
+        /* margin-left: 30px; */
+        color: #f7f5f5;
+      }
+      .b22 {
+        height: 20px;
+        float: right;
+        margin-top: 2px;
+        margin-right: 30px;
+        color: #f7f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1 style="color: aliceblue">CSS Assignment</h1></center>
+    <center>
+      <div class="mainn">
+        <div class="m1">
+          <div class="m12">
+            <ion-icon class="m123" name="headset"></ion-icon
+            ><ion-icon class="m123" name="wifi-outline"></ion-icon
+            ><ion-icon name="battery-charging-outline"></ion-icon>
+          </div>
+          <div class="m21">
+            <ion-icon name="airplane"></ion-icon>
+            <ion-icon class="m211" name="notifications-off-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="a11">
+          <h1
+            style="
+              color: black;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                sans-serif;
+              margin-top: -5px;
+            "
+          >
+            Instagram
+          </h1>
+        </div>
+
+        <div class="a1">
+          <div class="mon">
+            <div class="day-label">monday</div>
+            <div class="a1s">&emsp; Hello there! &emsp;</div>
+            <br /><br />
+            <div class="a1r">Hi! How can I help you today?</div>
+            <br /><br />
+            <div class="a1s">I have a question about your products.</div>
+            <br /><br /><br />
+            <div class="a1r">Sure, feel free to ask! &emsp;</div>
+            <br /><br />
+          </div>
+          <div class="tue">
+            <div class="day-label">tuesday</div>
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+          </div>
+          <div class="wed">
+            <div class="day-label">wednesday</div>
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+          </div>
+          <div class="thu">
+            <div class="day-label">thursday</div>
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+          </div>
+          <div class="fri">
+            <div class="day-label">friday</div>
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+          </div>
+          <div class="sat">
+            <div class="day-label">saturday</div>
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+          </div>
+          <div class="sun">
+            <div class="day-label">sunday</div>
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1s">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+            <div class="a1r">&emsp;Lorem ipsum dolor sit.</div>
+            <br /><br />
+          </div>
+        </div>
+        <div class="b1">
+          <ion-icon class="b12" name="menu-outline"></ion-icon
+          ><ion-icon class="b123" name="home-outline"></ion-icon
+          ><ion-icon class="b22" name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
